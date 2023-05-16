@@ -8,13 +8,13 @@ public class LuckySevens {
     public static void main (String[] args) {
 
         // declare initial game stats
-        Integer money = 0;
-        Integer winMoney = 4;
-        Integer loseMoney = 1;
-        Integer totalRolls = 1;
+        int money = 0;
+        int winMoney = 4;
+        int loseMoney = 1;
+        int totalRolls = 1;
 
-        Integer highestMoney = 0;
-        Integer highestMoneyRolls = 0;
+        int highestMoney = 0;
+        int highestMoneyRolls = 0;
 
         // get the money amount from the user
         System.out.println("How many dollars do you have?");
